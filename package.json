@@ -1,0 +1,16 @@
+{
+  "name": "adoptMe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": "https://gitlab.com/veronika.nikonova/adoptMe-ReactTutorial.git",
+  "author": "Veronika Nikonova <veronika.nikonova@acrolinx.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+    
+  }
+
+}
