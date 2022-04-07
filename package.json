@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.{js,jsx}\""
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": "https://gitlab.com/veronika.nikonova/adoptMe-ReactTutorial.git",
   "author": "Veronika Nikonova <veronika.nikonova@acrolinx.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "parcel": "1.12.3",
     "prettier": "^2.6.2"
-    
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
-
 }
